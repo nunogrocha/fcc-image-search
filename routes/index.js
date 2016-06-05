@@ -11,4 +11,8 @@ router.get('/recent', function(req, res) {
   
 });
 
+router.get('/', function(req, res) {
+    res.render('index', { title: 'FreeCodeCamp Challenge: Image Search Abstraction Layer' });
+});
+
 module.exports = router;

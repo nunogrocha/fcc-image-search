@@ -1,3 +1,18 @@
 extends layout
 
 block content
+  h1 #{title}
+    h3 User stories:
+    ul
+      li I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+      li I can paginate through the responses by adding a /2 parameter to the URL.
+      li I can get a list of the most recently submitted search strings.
+      li Mongodb caches searches
+       
+    h4 Example usage:
+    p
+      code https://fcc-image-search-nr.herokuapp.com/search/funny%20cats
+    p
+      code https://fcc-image-search-nr.herokuapp.com/search/funny%20cats?page=2
+    p
+      code https://fcc-image-search-nr.herokuapp.com/recent/
