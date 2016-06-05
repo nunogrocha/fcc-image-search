@@ -9,7 +9,9 @@
 
 ####Example usage:
 https://fcc-image-search-nr.herokuapp.com/search/funny%20cats
+
 https://fcc-image-search-nr.herokuapp.com/search/funny%20cats?page=2 
+
 https://fcc-image-search-nr.herokuapp.com/recent/
 
 Demo: [https://fcc-image-search-nr.herokuapp.com/search/funny%20cats](https://fcc-image-search-nr.herokuapp.com/search/funny%20cats)
